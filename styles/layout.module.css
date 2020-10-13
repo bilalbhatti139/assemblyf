@@ -1,0 +1,17 @@
+.DashboardMainContent {
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+}
+.content {
+  padding: 30px 15px;
+}
+
+.DashboardMainContentCollapse {
+  display: grid;
+  grid-template-columns: 80px 1fr 220px;
+}
+
+.DashboardMainContentCollapse a span,
+.DashboardMainContentCollapse button span {
+  display: none;
+}

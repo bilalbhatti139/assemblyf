@@ -1,0 +1,169 @@
+.nav {
+  background: #ffffff;
+  transition: 350ms;
+  border-right: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.RightSideBar {
+  background: #ffffff;
+  transition: 350ms;
+  border-left: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.nav ul {
+  padding: 0px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #090909;
+  font-size: 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.navbarText {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px 25px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav i {
+  color: #090909;
+  font-size: 18px !important;
+  margin-right: 20px;
+}
+
+.SidebarClose {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.RightSidebarClose {
+  padding: 20px;
+}
+
+.SidebarClose img {
+  background: #fbfbfb;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.RightSidebarClose img {
+  background: #fbfbfb;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.signOut {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.signOut button {
+  background: #fbfbfb;
+  border-radius: 50px;
+  border: 0.5px solid #e5e5e5;
+  outline: none;
+  color: #6a6a6a;
+  padding: 15px;
+}
+
+.Punctual {
+  background: #00a5e3;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.GoodIdea {
+  background: #ff5768;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.Thankyou {
+  background: #33aa83;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.WellDone {
+  background: #ff8000;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.TagsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.MyBuddyButton button {
+  width: 100%;
+  background: #33aa83;
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.SidebarVideoChatContainer {
+  padding: 20px;
+  position: relative;
+}
+
+.SidebarVideoChatContainer span {
+  background: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.StudentVideoThumbnail,
+.TeacherVideoThumbnail {
+  position: relative;
+}
