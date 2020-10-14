@@ -14,13 +14,18 @@ const NavBar = () => {
         <div className={s.LogoContainer}>
           <div className={s.logo}>
             <a href="#home" class={s.navbarBrand}>
-              <img src="../../static/assets/images/logo.png" alt="header-logo" className="img-fluid" />
+              <img
+                src="../../static/assets/images/logo.png"
+                alt="header-logo"
+                className="img-fluid"
+                width="100"
+              />
             </a>
           </div>
         </div>
-        {/* <div className={s.headerRightContent}>
+        <div className={s.headerRightContent}>
           <CustomDropDown List={UserDropDownOption} />
-        </div> */}
+        </div>
       </div>
     </Fragment>
   );

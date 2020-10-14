@@ -2,18 +2,22 @@ export const SidebarData = [
   {
     title: "Live",
     path: "/",
+    image: "live.png",
   },
   {
     title: "Replays",
     path: "/",
+    image: "replays.png",
   },
   {
     title: "Profile",
     path: "/",
+    image: "profile.png",
   },
   {
     title: "Community",
     path: "/",
+    image: "community.png",
   },
 ];
 

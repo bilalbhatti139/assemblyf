@@ -8,13 +8,6 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
-.LogoContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  align-items: baseline;
-}
-
 .logo a {
   color: #090909;
   font-weight: 700;
@@ -22,81 +15,20 @@
   text-decoration: none;
 }
 
-.logo span {
-  color: #ff5768;
-}
-
-.coins {
-  background: rgba(0, 165, 227, 0.05);
-  border-radius: 50px;
-  padding: 5px 15px;
-  color: #00a5e3;
-  font-weight: 700;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  border: solid 0.5px rgba(0, 165, 227, 0.05);
-}
-
-.coins button {
-  background: #00a5e3;
-  color: #fff;
+.CustomDropDown button {
+  background: transparent !important;
   border: none;
-  border-radius: 50px;
-  font-size: 25px;
-  outline: none;
-  padding: 0px 10px;
-}
-
-.coins i {
-  color: #00a5e3;
-  font-size: 18px !important;
-}
-
-.speedTest,
-.supportCenter {
-  color: #6a6a6a;
-  font-weight: 500;
-  text-align: right;
-}
-
-.speedTest i,
-.supportCenter i {
-  color: #6a6a6a;
-  font-size: 20px !important;
-  margin-right: 15px;
-}
-
-.userDropdown {
-  display: flex;
-  justify-content: space-between;
-}
-
-.userDropdown button {
-  background: #fff !important;
-  border: none;
-}
-
-.userDropdown button:focus {
   box-shadow: none !important;
 }
 
-.headerRightContent {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1.7fr;
-  grid-gap: 30px;
-  align-items: baseline;
+.CustomDropDown.dropdown-toggle {
+  background: yellow;
 }
 
-.userName p {
-  color: #ff5768;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0;
+.CustomDropDown button::after {
+  border-top: 0.5em solid red;
 }
 
-.userName span {
-  color: #090909;
-  font-size: 14px;
-  font-weight: 600;
+.CustomDropDown button:hover {
+  background: transparent;
 }

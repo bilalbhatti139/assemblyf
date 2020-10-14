@@ -1,10 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Profile from "../components/profile";
 
 const Dashboard = () => {
-  return (
-    <Profile />
-  );
+  return <Profile />;
 };
 
 export default Dashboard;

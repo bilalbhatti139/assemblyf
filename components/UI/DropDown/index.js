@@ -10,9 +10,10 @@ const CustomDropDown = ({ List }) => {
         <Dropdown>
           <Dropdown.Toggle id="dropdown-basic">
             <img
-              src="../../../static/assets/imgs/down-chevron.png"
+              src="../../../static/assets/images/user.png"
               alt="company-logo"
               className="img-fluid"
+              width="40"
             />
           </Dropdown.Toggle>
           <Dropdown.Menu>
