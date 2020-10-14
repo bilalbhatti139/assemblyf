@@ -15,14 +15,6 @@ export const SidebarData = [
     title: "Community",
     path: "/",
   },
-  {
-    title: "Leader Board",
-    path: "/",
-  },
-  {
-    title: "Feedback",
-    path: "/",
-  },
 ];
 
 export const UserDropDownOption = [

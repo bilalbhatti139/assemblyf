@@ -1,6 +1,6 @@
 .DashboardMainContent {
   display: grid;
-  grid-template-columns: 220px 1fr 220px;
+  grid-template-columns: 100px 1fr 220px;
 }
 .content {
   padding: 30px 15px;

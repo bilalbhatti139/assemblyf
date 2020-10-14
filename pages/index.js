@@ -1,10 +1,9 @@
 import React, { Fragment } from "react";
+import Profile from "../components/profile";
 
 const Dashboard = () => {
   return (
-    <Fragment>
-      <h1>Hello I am Dashboard</h1>
-    </Fragment>
+    <Profile />
   );
 };
 
