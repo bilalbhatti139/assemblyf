@@ -6,6 +6,7 @@ import Experience from "./experience";
 import Education from "./education";
 import Followers from "./yourFollowers";
 import PostBox from "./postbox";
+import ActivityBox from "./activityBox";
 
 // Import styles
 import s from "../../styles/profile.module.css";
@@ -22,6 +23,7 @@ const Profile = () => {
         </div>
         <div className={s.ContentRightWrap}>
           <PostBox />
+          <ActivityBox />
         </div>
       </div>
     </Fragment>

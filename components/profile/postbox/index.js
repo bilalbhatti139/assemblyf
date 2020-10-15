@@ -20,6 +20,32 @@ const PostBox = () => {
             <input type="text" placeholder="What's on your mind, Bilal" />
           </div>
         </div>
+        <div className={s.Attachments}>
+          <div className={s.Links}>
+            <img
+              src="../../../static/assets/images/pin.png"
+              className="mr-1 img-fluid"
+              width="20"
+            />
+            <span>Links</span>
+          </div>
+          <div className={s.photoAndVideo}>
+            <img
+              src="../../../static/assets/images/photos.png"
+              className="mr-1 img-fluid"
+              width="20"
+            />{" "}
+            <span>Photo/Vide</span>
+          </div>
+          <div className={s.feelingAndReaction}>
+            <img
+              src="../../../static/assets/images/smile.png"
+              className="mr-1 img-fluid"
+              width="20"
+            />{" "}
+            <span>Feeling/Reaction</span>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
