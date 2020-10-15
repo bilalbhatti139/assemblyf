@@ -72,7 +72,8 @@
 }
 
 .ExperienceContainer .Content .text p {
-  color: #5b5b5b;
+  color: #404040;
+  font-weight: 300;
 }
 
 .seeMore {
