@@ -1,7 +1,7 @@
 .nav {
   background: #ffffff;
   transition: 350ms;
-  border-right: 1px solid #e5e5e5;
+  border-right: 1px solid #cdc7c7;
   position: relative;
   text-align: center;
 }
@@ -9,7 +9,7 @@
 .RightSideBar {
   background: #ffffff;
   transition: 350ms;
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid #cdc7c7;
   position: relative;
 }
 

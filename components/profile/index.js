@@ -5,6 +5,7 @@ import ProfilePhoto from "./profilePhoto";
 import Experience from "./experience";
 import Education from "./education";
 import Followers from "./yourFollowers";
+import PostBox from "./postbox";
 
 // Import styles
 import s from "../../styles/profile.module.css";
@@ -19,7 +20,9 @@ const Profile = () => {
           <Education />
           <Followers />
         </div>
-        <div className={s.ContentRightWrap}></div>
+        <div className={s.ContentRightWrap}>
+          <PostBox />
+        </div>
       </div>
     </Fragment>
   );
