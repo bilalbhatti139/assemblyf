@@ -26,7 +26,7 @@ const RightSideBar = () => {
             </div>
             <div className={s.Message}>
               <p>Alia Isfahan</p>
-              <span>I can help you fundin</span>
+              <span>I can help you funding</span>
             </div>
           </div>
           <div className={s.chatBox}>
@@ -40,7 +40,7 @@ const RightSideBar = () => {
             </div>
             <div className={s.Message}>
               <p>Alia Isfahan</p>
-              <span>I can help you fundin</span>
+              <span>I can help you funding</span>
             </div>
           </div>
           <div className={s.chatBox}>
@@ -54,7 +54,7 @@ const RightSideBar = () => {
             </div>
             <div className={s.Message}>
               <p>Alia Isfahan</p>
-              <span>I can help you fundin</span>
+              <span>I can help you funding</span>
             </div>
           </div>
           <div className={s.chatBox}>
@@ -68,7 +68,7 @@ const RightSideBar = () => {
             </div>
             <div className={s.Message}>
               <p>Alia Isfahan</p>
-              <span>I can help you fundin</span>
+              <span>I can help you funding</span>
             </div>
           </div>
         </div>
