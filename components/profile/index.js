@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 import ProfilePhoto from "./profilePhoto";
 import Experience from "./experience";
 import Education from "./education";
-import yourFollowers from "./yourFollowers";
+import Followers from "./yourFollowers";
 
 // Import styles
 import s from "../../styles/profile.module.css";
@@ -17,7 +17,7 @@ const Profile = () => {
           <ProfilePhoto />
           <Experience />
           <Education />
-          <yourFollowers />
+          <Followers />
         </div>
         <div className={s.ContentRightWrap}></div>
       </div>

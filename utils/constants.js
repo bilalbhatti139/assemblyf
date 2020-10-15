@@ -27,3 +27,14 @@ export const UserDropDownOption = [
     path: "/",
   },
 ];
+
+export const FollowersData = [
+  { image: "picture-1.png" },
+  { image: "picture-2.png" },
+  { image: "picture-1.png" },
+  { image: "picture-2.png" },
+  { image: "picture-1.png" },
+  { image: "picture-2.png" },
+  { image: "picture-1.png" },
+  { image: "picture-2.png" },
+];

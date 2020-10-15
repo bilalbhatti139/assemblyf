@@ -33,7 +33,7 @@ const Experience = () => {
               point of using Lorem Ipsum is that it has a more-or-less normal
               distribution of letters, as opposed to using 'Content here,
               content here', making it look like readable English...
-              <span className={s.seeMore}>see More</span>
+              <span className={s.seeMore}>see more</span>
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Experience = () => {
               point of using Lorem Ipsum is that it has a more-or-less normal
               distribution of letters, as opposed to using 'Content here,
               content here', making it look like readable English...
-              <span className={s.seeMore}>see More</span>
+              <span className={s.seeMore}>see more</span>
             </p>
           </div>
         </div>

@@ -78,9 +78,51 @@
 
 .seeMore {
   color: #fe0000;
+  font-weight: 600;
 }
 
 .ExperienceContainer hr {
   border-top: 1px solid #dbdbdb;
   width: 95%;
+}
+
+.FollowerSection {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.FollowerSection .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.FollowerSection p {
+  color: #8d8d8d;
+}
+
+.FollowerSection h1 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #292929;
+}
+
+.FollowersMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.FollowingMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.FollowingWrapper {
+  padding-top: 30px;
 }
