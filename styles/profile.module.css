@@ -23,3 +23,63 @@
   font-size: 20px;
   font-weight: 300;
 }
+
+.ExperienceContainer {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.ExperienceContainer .header {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ExperienceContainer .header p {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.ExperienceContainer .Content {
+  padding: 10px;
+}
+
+.ExperienceContainer .Content .Title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ExperienceContainer .Content .subTitle h6 {
+  color: #000000;
+}
+
+.ExperienceContainer .Content .Title p {
+  color: #5b5b55;
+}
+
+.ExperienceContainer .Content .years {
+  text-align: right;
+}
+
+.ExperienceContainer .Content .years span {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.ExperienceContainer .Content .text p {
+  color: #5b5b5b;
+}
+
+.seeMore {
+  color: #fe0000;
+}
+
+.ExperienceContainer hr {
+  border-top: 1px solid #dbdbdb;
+  width: 95%;
+}
