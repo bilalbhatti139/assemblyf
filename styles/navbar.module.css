@@ -1,11 +1,10 @@
 .Navbar {
   background: #ffffff;
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  border-bottom: 1px solid #cdc7c7;
 }
 
 .logo a {
