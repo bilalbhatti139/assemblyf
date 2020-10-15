@@ -1,4 +1,6 @@
 import React from "react";
+
+// Import components
 import Profile from "../components/profile";
 
 const Dashboard = () => {

@@ -1,0 +1,25 @@
+.ProfileContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ProfilePhotoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ProfilePhotoContainer .useName {
+  margin-left: 20px;
+}
+
+.ProfilePhotoContainer h1 {
+  color: #000000;
+  font-size: 30px;
+  margin: 0;
+}
+
+.ProfilePhotoContainer p {
+  font-size: 20px;
+  font-weight: 300;
+}
