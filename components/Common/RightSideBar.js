@@ -1,78 +1,34 @@
 import React, { Fragment } from "react";
+import Link from "next/link";
 
 import s from "../../styles/sidebar.module.css";
+
+import { RightSidebarData } from "../../utils/constants";
 
 const RightSideBar = () => {
   return (
     <Fragment>
-      <div className={s.RightSideBarContainer}>
-        <div className={s.Search}>
-          <input type="text" placeholder="search" />
-          <img
-            src="../../../static/assets/images/search.png"
-            className="img-fluid"
-            width="12"
-          />
-        </div>
-        <div className={s.chatBoxContainer}>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <nav className={s.nav}>
+        <ul className="nav-menu-items">
+          {RightSidebarData.map((item, index) => {
+            return (
+              <li className={s.navbarText} key={index}>
+                <Link href={item.path}>
+                  <a>
+                    <img
+                      src={`../../static/assets/images/${item.image}`}
+                      alt="live"
+                      className="img-fluid mb-2"
+                      width="25"
+                    />
+                    <p className={s.sidebarText}>{item.title}</p>
+                  </a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </Fragment>
   );
 };

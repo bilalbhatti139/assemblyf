@@ -21,6 +21,24 @@ export const SidebarData = [
   },
 ];
 
+export const RightSidebarData = [
+  {
+    title: "Chat",
+    path: "/",
+    image: "chat.png",
+  },
+  {
+    title: "People",
+    path: "/",
+    image: "people.png",
+  },
+  {
+    title: "Studio",
+    path: "/",
+    image: "studio.png",
+  },
+];
+
 export const UserDropDownOption = [
   {
     title: "Logout",

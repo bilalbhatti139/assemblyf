@@ -35,6 +35,7 @@
 .RightSideBarContainer {
   background: #ffffff;
   padding: 10px;
+  margin: 10px;
 }
 
 .RightSideBarContainer .Search {
