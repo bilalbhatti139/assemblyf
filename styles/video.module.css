@@ -1,7 +1,7 @@
 .VideoSection {
   background: #1e1e1e;
   padding: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .MainVideoWrapper {
@@ -26,5 +26,5 @@
 }
 
 .Video {
-  border-radius: 10px;
+  border-radius: 20px;
 }
