@@ -17,7 +17,7 @@ const NavBar = () => {
               src="../../static/assets/images/logo.png"
               alt="header-logo"
               className="img-fluid"
-              width="100"
+              width="120"
             />
           </a>
         </div>

@@ -19,7 +19,7 @@ const SideBar = () => {
                       src={`../../static/assets/images/${item.image}`}
                       alt="live"
                       className="img-fluid mb-2"
-                      width="25"
+                      width="35"
                     />
                     <p className={s.sidebarText}>{item.title}</p>
                   </a>
