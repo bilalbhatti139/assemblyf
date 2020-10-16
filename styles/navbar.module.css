@@ -25,9 +25,31 @@
 }
 
 .CustomDropDown button::after {
-  border-top: 0.5em solid red;
+  border-top: 0.5em solid #ff0000;
 }
 
 .CustomDropDown button:hover {
   background: transparent;
+}
+
+.createEvent button {
+  background: #ff0000;
+  color: #fff;
+  border: 1px solid #ff0000;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 5px 15px;
+  font-weight: 600;
+  outline: none;
+}
+
+.headerRightContent {
+  display: flex;
+  align-items: baseline;
+}
+
+.createEvent,
+.Message,
+.Notification {
+  margin-right: 10px;
 }
