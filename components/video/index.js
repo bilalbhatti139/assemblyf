@@ -8,62 +8,66 @@ const VideoContainer = () => {
     <Fragment>
       <div className={s.VideoSection}>
         <div className={s.MainVideoWrapper}>
-          <div className={s.MainVideo}>
+          <div className={s.Video}>
             <img
-              src="../../static/assets/images/placeholder.png"
+              src="../../static/assets/images/video-placeholder.jpg"
               alt="img"
               className="img-fluid"
             />
           </div>
           <div className={s.MainVideoFourPerson}>
-            <img
-              src="../../static/assets/images/placeholder.png"
-              alt="img"
-              className="img-fluid"
-              width="150"
-            />
-            <img
-              src="../../static/assets/images/placeholder.png"
-              alt="img"
-              className="img-fluid"
-              width="150"
-            />
-            <img
-              src="../../static/assets/images/placeholder.png"
-              alt="img"
-              className="img-fluid"
-              width="150"
-            />
-            <img
-              src="../../static/assets/images/placeholder.png"
-              alt="img"
-              className="img-fluid"
-              width="150"
-            />
+            <div className={s.Video}>
+              <img
+                src="../../static/assets/images/video-placeholder.jpg"
+                alt="img"
+                className="img-fluid"
+              />
+            </div>
+            <div className={s.Video}>
+              <img
+                src="../../static/assets/images/video-placeholder.jpg"
+                alt="img"
+                className="img-fluid"
+              />
+            </div>
+            <div className={s.Video}>
+              <img
+                src="../../static/assets/images/video-placeholder.jpg"
+                alt="img"
+                className="img-fluid"
+              />
+            </div>
+            <div className={s.Video}>
+              <img
+                src="../../static/assets/images/video-placeholder.jpg"
+                alt="img"
+                className="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
       <div className={s.videoMembersBottom}>
         <img
-          src="../../static/assets/images/placeholder.png"
+          src="../../static/assets/images/video-placeholder.jpg"
           alt="img"
           className="img-fluid"
           width="100"
         />
         <img
-          src="../../static/assets/images/placeholder.png"
+          src="../../static/assets/images/video-placeholder.jpg"
           alt="img"
           className="img-fluid"
           width="100"
         />
         <img
-          src="../../static/assets/images/placeholder.png"
+          src="../../static/assets/images/video-placeholder.jpg"
           alt="img"
           className="img-fluid"
           width="100"
         />
         <img
-          src="../../static/assets/images/placeholder.png"
+          src="../../static/assets/images/video-placeholder.jpg"
           alt="img"
           className="img-fluid"
           width="100"

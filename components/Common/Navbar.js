@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className={s.Navbar}>
         <div className={s.LogoContainer}>
           <div className={s.logo}>
-            <a href="#home" className={s.navbarBrand}>
+            <a href="/" className={s.navbarBrand}>
               <img
                 src="../../static/assets/images/logo.png"
                 alt="header-logo"

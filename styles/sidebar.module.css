@@ -22,12 +22,12 @@
 .nav ul p {
   color: #414141;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
 }
 
 .navbarText {
-  padding: 15px;
+  padding: 10px;
   list-style: none;
   cursor: pointer;
 }
