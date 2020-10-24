@@ -1,0 +1,51 @@
+.SpeakerWrapper {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.SpeakerWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.SpeakerContainer {
+  padding: 20px;
+}
+
+.speaker {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.speaker img {
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+.speaker p {
+  color: #282828;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.speaker span {
+  color: rgba(40, 40, 40, 0.73);
+  font-size: 14px;
+}
+
+.title p {
+  color: #00a5e3;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.title h1 {
+  color: #282828;
+  font-weight: 600;
+}
+
+.ourSpeakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
