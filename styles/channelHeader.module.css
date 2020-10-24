@@ -1,0 +1,47 @@
+.channelHeaderContainer {
+  background: #00a5e3;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  padding: 20px;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.channelLogo {
+  text-align: center;
+}
+
+.channelName h1 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.channelJoin p {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.channelJoin button {
+  outline: none;
+  border: 2px solid #ffffff;
+  width: 100%;
+  background: #fff;
+  color: #33b7e9;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 10px;
+  transition: all 0.35s ease-in-out;
+}
+
+.channelJoin button:hover {
+  background: #33b7e9;
+  color: #ffffff;
+  transform: scale(1.1);
+  border: 2px solid #ffffff;
+}
