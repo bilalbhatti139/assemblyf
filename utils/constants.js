@@ -16,7 +16,7 @@ export const SidebarData = [
   },
   {
     title: "Partners",
-    path: "/",
+    path: "/partners",
     image: "partners.svg",
   },
 ];
@@ -88,4 +88,11 @@ export const SpeakerData = [
     name: "Jerome Ternynck",
     title: "javascript Expert",
   },
+];
+
+export const OurPartners = [
+  { image: "jazz.png" },
+  { image: "hbl.png" },
+  { image: "zong.svg" },
+  { image: "google.png" },
 ];
