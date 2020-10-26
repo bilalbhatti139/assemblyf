@@ -1,6 +1,7 @@
 .PartnersWrapper {
   height: 100vh;
   overflow-y: scroll;
+  background: #f0f0f0;
 }
 
 .PartnersWrapper::-webkit-scrollbar {
@@ -11,14 +12,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  grid-gap: 20px;
+  grid-gap: 10px;
   margin-top: 30px;
 }
 
 .partner {
   background: #fff;
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 6px;
   padding: 40px 20px;
   transition: all 0.35s ease-in-out;
   display: flex;
@@ -34,7 +33,9 @@
   padding: 20px;
 }
 
-.title h1 {
-  color: #282828;
-  font-weight: 600;
+.title h2 {
+  color: #404040;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -16,7 +16,7 @@ const Speaker = () => {
         <ChannelHeader />
         <div className={s.partnerContainer}>
           <div className={s.title}>
-            <h1>Our Partners</h1>
+            <h2>Partners & Sponsors</h2>
           </div>
           <div className={s.ourPartners}>
             {OurPartners.map((item, index) => {

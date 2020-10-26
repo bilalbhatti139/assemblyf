@@ -1,12 +1,12 @@
 export const SidebarData = [
   {
     title: "Agenda",
-    path: "/",
+    path: "/agenda",
     image: "note.svg",
   },
   {
     title: "Community",
-    path: "/",
+    path: "/community",
     image: "community.svg",
   },
   {

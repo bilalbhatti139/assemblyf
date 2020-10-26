@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 
 // Import components
-import Partner from "../../components/partner";
+import OurAgenda from "../../components/agenda";
 
-const Partners = () => {
+const Agenda = () => {
   return (
     <Fragment>
-      <Partner />
+      <OurAgenda />
     </Fragment>
   );
 };
 
-export default Partners;
+export default Agenda;
