@@ -30,6 +30,8 @@ const Speaker = () => {
                   />
                   <p>{item.name}</p>
                   <span>{item.title}</span>
+                  <br />
+                  <span>{item.subTitle}</span>
                 </div>
               );
             })}

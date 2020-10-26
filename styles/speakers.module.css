@@ -12,20 +12,13 @@
 }
 
 .speaker {
-  text-align: center;
   margin-bottom: 25px;
-}
-
-.speaker img {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
 }
 
 .speaker p {
   color: #000000;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 1.5;
   padding-top: 10px;
 }
@@ -51,4 +44,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 30px;
+  grid-gap: 15px;
+}
+
+.speaker img {
+  filter: grayscale(100%);
+  transition: all 0.35s ease-in-out;
+}
+
+.speaker img:hover {
+  filter: grayscale(0%);
 }

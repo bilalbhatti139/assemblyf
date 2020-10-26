@@ -61,32 +61,38 @@ export const SpeakerData = [
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "javascript Expert",
+    title: "Master Speaker",
+    subTitle: "Makerbot",
   },
 ];
 
