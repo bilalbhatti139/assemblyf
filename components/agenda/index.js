@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 
 // import components
 import ChannelHeader from "../channelHeader";
+import UpComingSession from "./UpComingSession";
+import ReplaysAndClips from "./ReplaysAndClips";
 
 // import styles
 import s from "../../styles/agenda.module.css";
@@ -11,17 +13,8 @@ const OurAgenda = () => {
     <Fragment>
       <div className={s.AgendaWrapper}>
         <ChannelHeader />
-        <div className={s.title}>
-          <h1>Upcoming Sessions</h1>
-        </div>
-        <div className={s.AgendaContainer}>
-            <div className={s.UpcomingSessions}>
-
-            </div>
-            <div className={s.Session}>
-                
-            </div>
-        </div>
+        <UpComingSession />
+        <ReplaysAndClips />
       </div>
     </Fragment>
   );

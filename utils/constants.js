@@ -102,3 +102,23 @@ export const OurPartners = [
   { image: "zong.svg" },
   { image: "google.png" },
 ];
+
+export const UpComingSessions = [
+  { session: "How to come up with ideas", time: "8th Oct - 8:00pm (PST)" },
+  { session: "How to select your confounders", time: "8th Oct - 8:00pm (PST)" },
+  { session: "How to build marketplaces", time: "8th Oct - 8:00pm (PST)" },
+  {
+    session: "How to build products as a startup",
+    time: "8th Oct - 8:00pm (PST)",
+  },
+  { session: "How to build marketplaces", time: "8th Oct - 8:00pm (PST)" },
+];
+
+export const ReplayAndClips = [
+  { image: "thumbnail.jpg" },
+  { image: "thumbnail.jpg" },
+  { image: "thumbnail.jpg" },
+  { image: "thumbnail.jpg" },
+  { image: "thumbnail.jpg" },
+  { image: "thumbnail.jpg" },
+];

@@ -1,0 +1,65 @@
+.AgendaWrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  background: #f0f0f0;
+}
+
+.AgendaWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.title h2 {
+  color: #404040;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.AgendaContainer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 1.1fr;
+  grid-gap: 10px;
+}
+
+.UpcomingSessions {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.SessionContent img {
+  border-radius: 10px;
+}
+
+.Session {
+  margin-bottom: 10px;
+}
+
+.Session p {
+  color: #080808;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.Session span {
+  font-size: 13px;
+  color: #212529;
+  font-weight: 300;
+}
+
+.VideosContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.VideoImage img {
+  border-radius: 10px;
+}
