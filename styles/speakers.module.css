@@ -1,6 +1,7 @@
 .SpeakerWrapper {
   height: 100vh;
   overflow-y: scroll;
+  background: #f0f0f0;
 }
 
 .SpeakerWrapper::-webkit-scrollbar {
@@ -35,9 +36,11 @@
   font-size: 18px;
 }
 
-.title h1 {
-  color: #282828;
-  font-weight: 600;
+.title h2 {
+  color: #404040;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .ourSpeakers {
