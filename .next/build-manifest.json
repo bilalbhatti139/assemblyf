@@ -24,10 +24,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/agenda": [
+    "/community": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/agenda.js"
+      "static/chunks/pages/community.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
+    ],
+    "/partners": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/partners.js"
     ],
     "/speakers": [
       "static/chunks/main.js",

@@ -8,22 +8,21 @@
   display: none;
 }
 
-.title {
-  padding-top: 20px;
-}
-
 .title h2 {
   color: #404040;
   font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.AgendaContentWrapper {
+  padding: 20px;
 }
 
 .AgendaContainer {
-  padding: 20px;
   display: grid;
   grid-template-columns: 0.5fr 1.1fr;
   grid-gap: 10px;
+  margin-top: 20px;
 }
 
 .UpcomingSessions {
@@ -57,7 +56,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  padding: 20px;
+  margin-top: 20px;
 }
 
 .VideoImage img {
