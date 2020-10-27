@@ -61,38 +61,32 @@ export const SpeakerData = [
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
   {
     image: "speaker.jpg",
     name: "Jerome Ternynck",
-    title: "Master Speaker",
-    subTitle: "Makerbot",
+    title: "Master Speaker Makerbot",
   },
 ];
 
@@ -126,4 +120,19 @@ export const ReplayAndClips = [
 export const ChannelList = [
   { title: "HTML/CSS Academy" },
   { title: "Backend Academy" },
+];
+
+export const LearningJourneyList = [
+  {
+    title: "How to come up with ideas?",
+  },
+  {
+    title: "How to select your co founders?",
+  },
+  {
+    title: "How to build marketplace?",
+  },
+  {
+    title: "how to build product as a startup?",
+  },
 ];

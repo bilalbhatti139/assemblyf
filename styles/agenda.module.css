@@ -14,6 +14,13 @@
   font-size: 22px;
 }
 
+.title span {
+  font-size: 16px;
+  text-decoration: underline;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
 .AgendaContentWrapper {
   padding: 20px;
 }
@@ -27,7 +34,7 @@
 
 .UpcomingSessions {
   background: #ffffff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 
@@ -36,18 +43,17 @@
 }
 
 .Session {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .Session p {
   color: #080808;
-  font-weight: 600;
-  line-height: 1;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .Session span {
-  font-size: 13px;
+  font-size: 14px;
   color: #212529;
   font-weight: 300;
 }

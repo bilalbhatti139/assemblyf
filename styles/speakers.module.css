@@ -13,18 +13,19 @@
 }
 
 .speaker {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .speaker p {
   color: #000000;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
-  padding-top: 10px;
+  padding-top: 5px;
+  line-height: 1.3;
 }
 
 .speaker span {
-  font-size: 14px;
+  font-size: 17px;
   color: #212529;
   font-weight: 300;
 }

@@ -15,8 +15,10 @@ const CommunityBox = () => {
       <div className={s.ProfileContainer}>
         <div className={s.ContentLeftWrap}>
           <PostBox />
+          <ActivityBox />
         </div>
         <div className={s.ContentRightWrap}>
+          <ActivityBox />
           <ActivityBox />
         </div>
       </div>

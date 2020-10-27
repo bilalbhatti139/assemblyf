@@ -6,12 +6,15 @@ import s from "../../styles/agenda.module.css";
 // import constants
 import { ReplayAndClips } from "../../utils/constants";
 
-const ReplaysAndClips = () => {
+const ReplaysAndClips = ({ showJourneyBox }) => {
   return (
     <Fragment>
       <div className={s.AgendaContentWrapper}>
         <div className={s.title}>
-          <h2>Replays & Clips</h2>
+          <h2>
+            Replays & Clips
+            <span onClick={showJourneyBox}>Learning Journey</span>
+          </h2>
         </div>
         <div className={s.VideosContainer}>
           {ReplayAndClips.map((item, index) => {
