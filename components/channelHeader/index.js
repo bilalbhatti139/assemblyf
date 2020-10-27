@@ -7,26 +7,18 @@ const ChannelHeader = () => {
   return (
     <Fragment>
       <div className={s.channelHeaderContainer}>
-        <div className={s.channelLogo}>
-          <img
-            src="../../static/assets/images/logo.png"
-            className="img-fluid"
-            width="150"
-          />
+        <div className={s.uploadImage}>
+          <label for="file-input">
+            <img src="../../static/assets/images/edit.svg" width="20" />
+          </label>
+          <input id="file-input" type="file" />
         </div>
         <div className={s.channelName}>
-          <h1>Channel Name</h1>
+          <h1>Javascript Academy</h1>
         </div>
         <div className={s.channelJoin}>
-          <p>
-            <img
-              src="../../static/assets/images/members.svg"
-              className="img-fluid mr-2"
-              width="30"
-            />
-            484 Members
-          </p>
-          <button>Join Us</button>
+          <span>484 Members</span>
+          <button> Join</button>
         </div>
       </div>
     </Fragment>
