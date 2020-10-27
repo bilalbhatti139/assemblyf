@@ -1,17 +1,18 @@
 import React, { Fragment } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
 
 // import styles
 import s from "../../styles/navbar.module.css";
 
 // import component
 import CustomDropDown from "../../components/UI/DropDown";
-import { UserDropDownOption } from "../../utils/constants";
+import { UserDropDownOption, ChannelList } from "../../utils/constants";
 
 const NavBar = () => {
   return (
     <Fragment>
       <div className={s.Navbar}>
-        <div className={s.logo}>
+        <div className={s.logoContainer}>
           <a href="/" className={s.navbarBrand}>
             <img
               src="../../static/assets/images/logo.png"
@@ -20,6 +21,21 @@ const NavBar = () => {
               width="120"
             />
           </a>
+          <div className={s.ChannelName}>
+            <span>Channel:</span>
+            <Dropdown>
+              <Dropdown.Toggle id="dropdown-basic">
+                Javascript Academy
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {ChannelList.map((item, index) => {
+                  return (
+                    <Dropdown.Item key={index}>{item.title}</Dropdown.Item>
+                  );
+                })}
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
         </div>
         <div className={s.headerRightContent}>
           <div className={s.goLive}>
@@ -51,7 +67,7 @@ const NavBar = () => {
               width="30"
             />
           </div>
-          <CustomDropDown List={UserDropDownOption} />
+          <CustomDropDown List={UserDropDownOption} image="user.png" />
         </div>
       </div>
     </Fragment>

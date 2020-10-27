@@ -7,13 +7,6 @@
   padding: 2rem 0rem 2rem 2rem;
 }
 
-.logo a {
-  color: #090909;
-  font-weight: 700;
-  font-size: 25px;
-  text-decoration: none;
-}
-
 .CustomDropDown button {
   background: transparent !important;
   border: none;
@@ -67,4 +60,25 @@
 .Message,
 .Notification {
   margin-right: 10px;
+}
+
+.ChannelName,
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ChannelName {
+  margin-left: 10px;
+}
+
+.ChannelName button {
+  background: transparent !important;
+  color: #000000 !important;
+  border: none;
+  box-shadow: none !important;
+}
+
+.ChannelName button::after {
+  border-top: 0.5em solid #ff0000;
 }

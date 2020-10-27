@@ -122,3 +122,8 @@ export const ReplayAndClips = [
   { image: "thumbnail.jpg" },
   { image: "thumbnail.jpg" },
 ];
+
+export const ChannelList = [
+  { title: "HTML/CSS Academy" },
+  { title: "Backend Academy" },
+];
