@@ -22,6 +22,16 @@ const NavBar = () => {
           </a>
         </div>
         <div className={s.headerRightContent}>
+          <div className={s.goLive}>
+            <button>
+              Go Live{" "}
+              <img
+                src="../../static/assets/images/live-white.png"
+                className="img-fluid "
+                width="25"
+              />
+            </button>
+          </div>
           <div className={s.createEvent}>
             <button>Create Event</button>
           </div>
