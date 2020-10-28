@@ -33,6 +33,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/next/dist/pages/_error.js"
+    ],
+    "/partners": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/partners.js"
     ]
   },
   "ampFirstPages": []
