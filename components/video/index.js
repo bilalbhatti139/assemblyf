@@ -46,6 +46,14 @@ const VideoContainer = () => {
                                 />
                             </div>
                         </div>
+                        <div className={s.FloatingImage}>
+                            <img
+                                src="../../static/assets/images/logo_white.png"
+                                alt="header-logo"
+                                className="img-fluid"
+                                width="120"
+                            />
+                        </div>
                     </div>
                 </div>
                 <div className={s.videoMembersBottom}>
@@ -73,7 +81,7 @@ const VideoContainer = () => {
                         className="img-fluid"
                         width="100"
                     />
-                     <img
+                    <img
                         src="../../static/assets/images/video-placeholder.jpg"
                         alt="img"
                         className="img-fluid"

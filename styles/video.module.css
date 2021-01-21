@@ -15,6 +15,7 @@
     text-align: center;
     grid-gap: 10px;
     align-items: center;
+    position: relative;
 }
 
 .Video img {
@@ -107,4 +108,9 @@
 .VideoFilter .Filters img {
     height: 50px;
     border-radius: 5px;
+}
+.FloatingImage{
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
 }
