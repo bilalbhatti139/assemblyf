@@ -1,23 +1,23 @@
 export const SidebarData = [
   {
-    title: "Agenda",
-    path: "/agenda",
-    image: "note.svg",
+    title: "Live",
+    path: "/live",
+    image: "live.png",
+  },
+  {
+    title: "Replays",
+    path: "/replay",
+    image: "replays.png",
+  },
+  {
+    title: "Profile",
+    path: "/profile",
+    image: "profile.png",
   },
   {
     title: "Community",
     path: "/community",
-    image: "community.svg",
-  },
-  {
-    title: "Speakers",
-    path: "/speakers",
-    image: "profile.png",
-  },
-  {
-    title: "Partners",
-    path: "/partners",
-    image: "partners.svg",
+    image: "community.png",
   },
 ];
 
