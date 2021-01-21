@@ -1,30 +1,110 @@
+.MainWrapper {
+    background: #f6f6f6;
+    min-height: 100vh;
+}
 .VideoSection {
-  background: #1e1e1e;
-  padding: 50px;
-  border-radius: 20px;
+    background: #ffffff;
 }
 
 .MainVideoWrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  grid-gap: 20px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    align-items: center;
 }
 
+.Video img {
+    border-radius: 15px;
+}
 .MainVideoFourPerson {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
 }
-
+.MainVideoFourPerson .Video img {
+    border-radius: 5px;
+}
 .videoMembersBottom {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  grid-gap: 10px;
-  padding-top: 20px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr  1fr  1fr  1fr  1fr ;
+    grid-gap: 4px;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
-.Video {
-  border-radius: 20px;
+.videoMembersBottom img {
+  border-radius: 5px;
+  width: 100%;
+  height: 90px;
+}
+.VideoSidebarContiner {
+  margin-left: 4px;
+    background: #f6f6f6;
+    padding: 10px;
+}
+.VideoSidebarInnerContiner {
+    background: #ffffff;
+    padding: 20px;
+}
+.AddLogo {
+    margin-bottom: 20px;
+}
+.AddLogo input {
+    border-radius: 5px;
+    background-color: #eeeeee;
+    border: none;
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+}
+.AddLogo input:focus {
+    outline: none;
+}
+.VideoSidebarInnerContiner h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+.VideoSidebarInnerContiner .AddLogo button {
+    background: #cccccc;
+    width: 50px;
+    height: 40px;
+    border: 0px;
+    padding: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 0;
+}
+.ChooseBackground,
+.VideoFilter,
+.AddCoverImage {
+    margin-bottom: 20px;
+}
+.GithubPicker {
+    box-shadow: none !important;
+    border: 0px !important;
+    padding: 0px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+.GithubPicker span div {
+    width: auto !important;
+    height: 36px !important;
+}
+.VideoFilter .Filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+.VideoFilter .Filters img {
+    height: 50px;
+    border-radius: 5px;
 }

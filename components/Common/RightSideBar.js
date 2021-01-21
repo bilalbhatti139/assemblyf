@@ -12,14 +12,14 @@ const RightSideBar = () => {
         <ul className="nav-menu-items">
           {RightSidebarData.map((item, index) => {
             return (
-              <li className={s.navbarText} key={index}>
+              <li className={item.active=="Y" ? s.activeNavbarText : s.navbarText } key={index} >
                 <Link href={item.path}>
                   <a>
                     <img
                       src={`../../static/assets/images/${item.image}`}
                       alt="live"
                       className="img-fluid mb-2"
-                      width="35"
+                      
                     />
                     <p className={s.sidebarText}>{item.title}</p>
                   </a>

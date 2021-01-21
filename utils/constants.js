@@ -26,16 +26,19 @@ export const RightSidebarData = [
     title: "Chat",
     path: "/",
     image: "chat.png",
+    active: "N"
   },
   {
     title: "People",
     path: "/",
     image: "people.png",
+    active: "N"
   },
   {
     title: "Studio",
     path: "/",
     image: "studio.png",
+    active: "Y"
   },
 ];
 

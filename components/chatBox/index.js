@@ -1,80 +1,74 @@
 import React, { Fragment } from "react";
-
-import s from "../../styles/sidebar.module.css";
+import { GithubPicker } from "react-color";
+import s from "../../styles/video.module.css";
 
 const ChatBox = () => {
-  return (
-    <Fragment>
-      <div className={s.RightSideBarContainer}>
-        <div className={s.chatBoxContainer}>
-          <div className={s.Search}>
-            <input type="text" placeholder="search" />
-            <img
-              src="../../../static/assets/images/search.png"
-              className="img-fluid"
-              width="12"
-            />
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
+    return (
+        <Fragment>
+            <div className={s.VideoSidebarContiner}>
+                <div className={s.VideoSidebarInnerContiner}>
+                    <div className={s.AddLogo}>
+                        <h4>Add logo</h4>
+                        <button type="button">+</button>
+                    </div>
+                    <div className={s.ChooseBackground}>
+                        <h4>Choose Background</h4>
+                        <GithubPicker
+                            triangle="hide"
+                            width="100%"
+                            className={s.GithubPicker}
+                        />
+                    </div>
+                    <div className={s.VideoFilter}>
+                        <h4>Video filter</h4>
+                        <div className={s.Filters}>
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                            <img
+                                src="../../static/assets/images/video-placeholder.jpg"
+                                alt="img"
+                                className="img-fluid"
+                            />
+                        </div>
+                    </div>
+                    <div className={s.AddLogo}>
+                        <h4>Add Cover Image</h4>
+                        <button type="button">+</button>
+                    </div>
+                    <div className={s.AddLogo}>
+                        <h4>Text</h4>
+                        <input type="text"/>
+                    </div>
+                    <div className={s.AddLogo}>
+                        <h4>Text Style</h4>
+                    </div>
+                </div>
             </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-          <div className={s.chatBox}>
-            <div className={s.userImg}>
-              <img
-                src="../../../static/assets/images/user.png"
-                alt="user-img"
-                className="img-fluid mr-2"
-                width="40"
-              />
-            </div>
-            <div className={s.Message}>
-              <p>Alia Isfahan</p>
-              <span>I can help you funding</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Fragment>
-  );
+        </Fragment>
+    );
 };
 
 export default ChatBox;
